@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="731.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/19" fx:controller="hmsproject.MainController">
+    <children>
+        <Button fx:id="button" layoutX="347.0" layoutY="464.0" onAction="#handleButtonAction" text="Click Me!" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" prefHeight="150.0" prefWidth="228.0" />
+      <VBox layoutX="61.0" layoutY="69.0" prefHeight="258.0" prefWidth="98.0" spacing="20.0">
+         <children>
+            <Label text="Name" />
+            <Label text="Surname" />
+            <Label text="Birth Date" />
+            <Label text="Address" />
+            <Label text="ID Number" />
+            <Label text="New Password" />
+            <Label text="Repeat Password" />
+         </children>
+      </VBox>
+      <VBox layoutX="178.0" layoutY="69.0" prefHeight="239.0" prefWidth="158.0" spacing="10.0">
+         <children>
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+            <TextField />
+         </children>
+      </VBox>
+      <Label layoutX="300.0" layoutY="31.0" text="Hospital Management System" />
+      <Button layoutX="194.0" layoutY="327.0" mnemonicParsing="false" text="register new account" />
+      <Button layoutX="467.0" layoutY="327.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="127.0" text="Login" />
+      <VBox layoutX="380.0" layoutY="252.0" prefHeight="57.0" prefWidth="100.0" spacing="15.0">
+         <children>
+            <Label text="ID Number" />
+            <Label text="Password" />
+         </children>
+      </VBox>
+      <VBox layoutX="459.0" layoutY="248.0" prefHeight="65.0" prefWidth="175.0" spacing="10.0">
+         <children>
+            <TextField />
+            <TextField />
+         </children>
+      </VBox>
+    </children>
+</AnchorPane>
